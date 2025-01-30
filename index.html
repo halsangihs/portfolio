@@ -51,8 +51,8 @@
         </ul>
       </nav>
 
-      <div class="flex justify-around items-center mt-24 text-left flex-wrap">
-        <div class="flex flex-col w-1/2 items-center mt-5 ">
+      <div class="flex w-sc justify-around items-center mt-24 text-left flex-wrap">
+        <div class="flex flex-col w-1/2 mt-5 ">
           <h1 class="text-gray-600 mt-16 text-5xl font-semibold">
             Hello I'm Hanamant Halsangi
           </h1>
@@ -201,29 +201,29 @@
       </div>
     </section>
 
-    <div class="w-screen flex justify-center ">
+    <div class="w-screen flex justify-center px-4 md:px-0">
       <section
         id="contact"
-        class="mt-10 bg-white/30 backdrop-blur-md w-[40%] rounded-xl"
+        class="mt-10 bg-white/30 backdrop-blur-md w-full max-w-lg md:w-[60%] lg:w-[40%] rounded-xl p-6"
       >
-        <h2 class="text-4xl font-semibold">Contact Me</h2>
-        <form class="flex flex-col gap-10 items-center">
+        <h2 class="text-4xl font-semibold text-center">Contact Me</h2>
+        <form class="flex flex-col gap-6 items-center">
           <input
-            class="w-[75%] p-3 mt-5 border rounded-2xl shadow-xl hover:shadow-2xl"
+            class="w-full p-3 mt-5 border rounded-2xl shadow-xl hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-sky-400"
             type="text"
             placeholder="Name"
           />
           <input
-            class="w-[75%] p-3 border rounded-2xl shadow-xl hover:shadow-2xl"
+            class="w-full p-3 border rounded-2xl shadow-xl hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-sky-400"
             type="email"
             placeholder="Email"
           />
           <textarea
-            class="w-[75%] p-10 border rounded-2xl shadow-xl hover:shadow-2xl"
+            class="w-full p-3 h-32 border rounded-2xl shadow-xl hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-sky-400"
             placeholder="Message"
           ></textarea>
           <button
-            class="bg-sky-100 px-5 py-2 text-xl mt-2 rounded-md shadow-xl"
+            class="bg-sky-500 text-white px-5 py-2 text-xl mt-2 rounded-md shadow-xl hover:bg-sky-600 transition"
             type="submit"
           >
             Submit
@@ -231,6 +231,7 @@
         </form>
       </section>
     </div>
+    
     <footer class="rounded-5xl mt-10">
       <h3 class="text-2xl">Connect with me</h3>
       <div class="social-icons">
